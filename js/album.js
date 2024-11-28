@@ -144,7 +144,7 @@ document.addEventListener("mousemove", (e) => {
   if (!isDragging) return;
 
   const deltaX = e.clientX - startX;
-  currentRotation = startRotation + deltaX * 0.5; // 调整旋转速度
+  currentRotation = startRotation + deltaX * 0.2; // 调整旋转速度
   arrangeCards();
 });
 
